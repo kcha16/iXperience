@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+.section1 {
+	background-color: black;
+	color: white;
+}
+.section1-header {
+	display: inline;
+}
+.section1-header-left {
+	float: left;
+}
+.section1-header-right {
+	float: right;
+	display: inline;
+}
+.section1-image {
+	margin-left: 400px;
+	margin-right: 200px;
+}
+.section2 {
+	background-color: white;
+	color: black;
+}
+.section2-header {
+	font-size: 24px;
+}
+.section3 {
+	background-color: #ADF3D9;
+	color: white;
+}
+.section3-body {
+	display: inline-block;
+}
+.section3-button {
+	border: 1px solid white;
+	width: 200px;
+}
+.section4 {
+	background-color: gray;
+	color: black;
+}
+.section4-left {
+	float: left;
+}
+.section4-right {
+	float: right;
+}
