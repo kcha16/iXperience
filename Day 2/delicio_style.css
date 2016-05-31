@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background-color: white;
+	color: black;
+}
+.header-logo {
+	font-style: italic;
+	font-size: 40px;
+	float: left;
+	display: inline-block;
+}
+.links {
+	float: right;
+	font-size: 30px;
+}
+.home {
+	display: inline-block;
+	color: orange;
+}
+.about {
+	display: inline-block;
+	margin-left: 10px;
+}
+.menu {
+	display: inline-block;
+	margin-left: 10px;
+}
+.reservations {
+	display: inline-block;
+	margin-left: 10px;
+}
+.shop {
+	display: inline-block;
+	margin-left: 10px;
+}
+.news {
+	display: inline-block;
+	margin-left: 10px;
+}
+.contact {
+	display: inline-block;
+	margin-left: 10px;
+}
+.items {
+	display: inline-block;
+	margin-left: 10px;
+}
+.body1 img {
+	width: 100%;
+}
+.body2 {
+	background-color: black;
+	color: white;
+}
+.Directions {
+	width: 20%;
+	display: inline-block;
+	margin-top: -20px;
+}
+.Opening {
+	width: 20%;
+	display: inline-block;
+	margin-top: -20px;
+	
+}
+.Follow {
+	width: 20%;
+	display: inline-block;
+	
+}
+.social-icons img {
+	height: 100px;
+	width: 200px;
+}
+.Instagram {
+	width: %;
+	display: inline-block;
+	
+}
