@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.row {
+	text-align: center;
+}
+.header1 {
+	margin-top: 10%;
+	font-size: 75px;
+	color: green;
+}
+.header2 {
+	font-size: 20px;
+	color: gray;
+}
+
+.buttons {
+	margin-top: 30px;
+}
+.button1 {
+	display: inline-block;
+}
+.button2 {
+	display: inline-block;
+}
+

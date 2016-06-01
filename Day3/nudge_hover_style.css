@@ -1,0 +1,61 @@
+.nudge {
+	float: left;
+	font-family: cursive;
+	font-size: 200%;
+	margin-left: 20px;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.social {
+	float: right;
+	margin-right: 50px;
+	padding-top: 25px;
+	word-spacing: 5px;
+}
+
+.links{
+	word-spacing: 60px;
+	margin-left: 320px;
+	float: left;
+	padding-top: 25px;
+}
+
+.text{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 150%;
+}
+
+.image1container {
+	position: relative;
+}
+.text-content:hover{
+	opacity:.85;
+	transition:opacity .2s;
+
+}
+
+.text-content {
+	position: absolute;
+	left: 3%;
+	bottom: 5%;
+	text-align: center;
+	border: solid white 1px;
+	padding: 21% 29% 24% 26%;
+	background-color: white;
+	color: black;
+	opacity: 0;
+}
+
+.footer{
+	text-align: center;
+}
+
+.copyright{
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
