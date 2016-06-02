@@ -1,0 +1,114 @@
+/*body { padding-top: 40px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+*/
+
+.my-fluid-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: black;
+	color: white;
+}
+.nav{
+	float: right;
+}
+
+
+.nopadding {
+	padding:0 !important;
+	margin:0 !important;
+}
+.grid img{
+	height:400px;
+	width:100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+.family {
+	position:relative;
+}
+.family-text {
+	position: absolute;
+	font-size: 24px;
+	top: 30%;
+	left: 35%;
+	opacity: 0;
+}
+.family img {
+	opacity: 1;
+}
+.family:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.family:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.school {
+	position:relative;
+}
+.school-text {
+	position: absolute;
+	font-size: 24px;
+	top: 30%;
+	left: 35%;
+	opacity: 0;
+}
+.school img {
+	opacity: 1;
+}
+.school:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.school:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.friends {
+	position:relative;
+}
+.friends-text {
+	position: absolute;
+	font-size: 24px;
+	top: 30%;
+	left: 35%;
+	opacity: 0;
+}
+.friends img {
+	opacity: 1;
+}
+.friends:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.friends:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.career {
+	position:relative;
+}
+.career-text {
+	position: absolute;
+	font-size: 24px;
+	top: 30%;
+	left: 35%;
+	opacity: 0;
+}
+.career img {
+	opacity: 1;
+}
+.career:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.career:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+
+

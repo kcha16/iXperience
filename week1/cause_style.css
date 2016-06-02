@@ -1,0 +1,154 @@
+.my-fluid-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: black;
+	color: white;
+}
+.nav{
+	float: right;
+}
+.nopadding {
+	padding:0 !important;
+	margin:0 !important;
+}
+.grid img{
+	height:250px;
+	width:100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+.asap {
+	position:relative;
+}
+.asap-text {
+	position: absolute;
+	font-size: 24px;
+	top: 35%;
+	left: 32%;
+	opacity: 0;
+	text-align: center;
+}
+.asap img {
+	opacity: 1;
+}
+.asap:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.asap:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.drake {
+	position:relative;
+}
+.drake-text {
+	position: absolute;
+	font-size: 24px;
+	top: 32%;
+	left: 25%;
+	opacity: 0;
+	text-align: center;
+}
+.drake img {
+	opacity: 1;
+}
+.drake:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.drake:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.kanye {
+	position:relative;
+}
+.kanye-text {
+	position: absolute;
+	font-size: 24px;
+	top: 30%;
+	left: 25%;
+	opacity: 0;
+	text-align: center;
+}
+.kanye img {
+	opacity: 1;
+}
+.kanye:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.kanye:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.jcole {
+	position:relative;
+}
+.jcole-text {
+	position: absolute;
+	font-size: 24px;
+	top: 28%;
+	left: 28%;
+	opacity: 0;
+	text-align: center;
+}
+.jcole img {
+	opacity: 1;
+}
+.jcole:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.jcole:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.kendrick {
+	position:relative;
+}
+.kendrick-text {
+	position: absolute;
+	font-size: 20px;
+	top: 28%;
+	left: 25%;
+	opacity: 0;
+	text-align: center;
+}
+.kendrick img {
+	opacity: 1;
+}
+.kendrick:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.kendrick:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.chance {
+	position:relative;
+}
+.chance-text {
+	position: absolute;
+	font-size: 20px;
+	top: 30%;
+	left: 20%;
+	opacity: 0;
+	text-align: center;
+}
+.chance img {
+	opacity: 1;
+}
+.chance:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.chance:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+
+

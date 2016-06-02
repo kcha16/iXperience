@@ -1,0 +1,12 @@
+.bio-wrap {
+	position: relative;
+}
+.bio-text {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+.bio-wrap:hover .bio-text {
+	opacity:.8;
+	visibility: visible;
+}

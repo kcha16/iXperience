@@ -1,0 +1,92 @@
+a:link {
+	text-decoration: none;
+}
+.bio {
+	position:relative;
+}
+.bio-text {
+	position: absolute;
+	font-size: 24px;
+	top: 40%;
+	left: 40%;
+}
+.bio img {
+	width: 400px;
+	height: 400px;
+	opacity: 1;
+}
+.bio-text {
+	opacity: 0;
+}
+.bio:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.bio:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.cause {
+	position:relative;
+}
+.cause-text {
+	position: absolute;
+	font-size: 24px;
+	top: 40%;
+	left: 40%;
+}
+.cause img {
+	width: 400px;
+	height: 400px;
+	opacity: 1;
+}
+.cause-text {
+	opacity: 0;
+}
+.cause:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.cause:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.nous {
+	position:relative;
+}
+.nous-text {
+	position: absolute;
+	font-size: 24px;
+	top: 40%;
+	left: 40%;
+}
+.nous img {
+	width: 400px;
+	height: 400px;
+	opacity: 1;
+}
+.nous-text {
+	opacity: 0;
+}
+.nous:hover > img{
+	opacity:.2;
+	transition: opacity .2s;
+}
+.nous:hover > div{
+	opacity:1;
+	transition: opacity .2s;
+}
+.links {
+	top: 10%;
+}
+.text-center {
+	text-align: center;
+}
+.links img {
+	height:50px;
+	width:50px;
+}
+
+
+
+
