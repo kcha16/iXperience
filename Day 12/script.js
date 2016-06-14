@@ -5,7 +5,7 @@ app.controller("MainCtrl", function($scope) {
 
 	$scope.addItem = function() {
 		$scope.items.push($scope.newItem);
-		console.log(items);
+		console.log($scope.items);
 		$scope.newItem="";
 	}
 	$scope.removeItem = function(x) {
