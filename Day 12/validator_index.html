@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>I love Validation</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="./class_script.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body ng-app="FormInput" ng-controller="Main">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div ng-show="switch2">Welcome, {{name}}!
+			</div>
+		</div>
+	</div>
+	<div class="wrapper" ng-show="switch1">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div ng-init="nameError=null">{{nameError}}</div>
+			<div ng-init="phoneError=null">{{phoneError}}</div>
+			<div ng-init="emailError=null">{{emailError}}</div>
+			<div ng-init="pass1Error=null">{{pass1Error}}</div>
+			<div ng-init="pass2Error=null">{{pass2Error}}</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-4">
+			<form>
+				<input type="text" ng-model="name" placeholder="Name">
+				<br>
+				<input type="text" ng-model="phone" placeholder="Phone Number">
+				<br>
+				<input type="text" ng-model="email" placeholder="Email">
+				<br>
+				<input type="password" ng-model="password1" placeholder="Password">
+				<br>
+				<input type="password" ng-model="password2" placeholder="Re-enter Password">
+
+			</form>
+			<button ng-click="clickcheck()">Submit</button>
+		</div>
+	</div>
+	</div>
+
+</div>
+	
+</body>
+</html>

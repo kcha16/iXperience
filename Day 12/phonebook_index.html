@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Phonebooks are beauts</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="./phonebook_script.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body ng-app="PhoneBook" ng-controller="MainCtrl">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<h1>PhoneBook</h1>
+			<input type="text" class="form-control" ng-model="name">
+			<input type="text" class="form-control" ng-model="phone">
+			<button id="button" ng-click="clickCheck()">Create Contact</button>
+				<ol>
+				<p> Search Contacts<input type="text" placeholder="search" ng-model="nameSearch"> </p>
+​
+	<li ng-repeat= "pSearch in contactlist | filter:nameSearch"> {{pSearch}} </li>
+				</ol>			
+		</div>
+	</div>
+</div>
+
+	
+</body>
+</html>
