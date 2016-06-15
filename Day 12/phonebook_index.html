@@ -13,7 +13,9 @@
 		<div class="col-md-6 col-md-offset-3">
 			<h1>PhoneBook</h1>
 			<input type="text" class="form-control" ng-model="name">
+			<div ng-init="nameError=null">{{nameError}}</div>
 			<input type="text" class="form-control" ng-model="phone">
+			<div ng-init="phoneError=null">{{phoneError}}</div>
 			<button id="button" ng-click="clickCheck()">Create Contact</button>
 				<ol>
 				<p> Search Contacts<input type="text" placeholder="search" ng-model="nameSearch"> </p>
