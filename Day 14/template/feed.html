@@ -1,0 +1,15 @@
+
+<div ng-controller = "FeedCtrl">
+	<h1>Be Nice To People Summer 16</h1>
+	<a href="#/me">View my props</a>
+	<p class="error" ng-model="error">{{error}}</p>
+    <textarea name="Prop" rows="5" ng-model="newProp.text" class="form-control"></textarea>
+    <select ng-model="newProp.receiver" ng-options="item.first_name for item in brus"></select>
+    <button ng-click="sendProp()">Validate and Send</button> 
+    <button ng-click="refreshProps()">Refresh</button>
+    <ul>
+    	<p ng-repeat="item in props">@:{{item.receiver.first_name}} <br> {{item.text}} <br> Positivity Score: {{item.positivity_score}} <br>
+    	<br> 
+    	</p>
+    </ul> 
+</div>
